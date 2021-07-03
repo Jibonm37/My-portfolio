@@ -13,6 +13,7 @@ section{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
     background-position: ;
+    margin-bottom: 200px;
 }
 .jibon{
     width: 50%;
@@ -40,8 +41,13 @@ h2{
 .hire{
     text-decoration: none;
     font-weight: 900;
-    background-color: orangered;
+    background-color: salmon;
     padding: 8px 30px;
     border-radius: 5px;
     color: white;
+}
+.middle{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
