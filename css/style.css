@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+section{
+    display: flex;
+    margin: % 0px;
+    
+    
+}
+.top{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: ;
+}
+.jibon{
+    width: 50%;
+    margin: 0px 5%;
+    padding: 10px 0px;
+}
+.jibon p{
+    font-style: italic;
+    color: rgb(128, 103, 103);
+}
+.jibon img{
+    width: 100%;
+}
+span{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+    font-weight:900;
+}
+h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.hire{
+    text-decoration: none;
+    font-weight: 900;
+    background-color: orangered;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: white;
+}
