@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0px;
 }
-section{
+.flexible{
     display: flex;
     margin: % 0px;
     
@@ -41,7 +41,7 @@ h2{
 .hire{
     text-decoration: none;
     font-weight: 900;
-    background-color: salmon;
+    background-image:linear-gradient(orange,salmon);
     padding: 8px 30px;
     border-radius: 5px;
     color: white;
@@ -50,4 +50,64 @@ h2{
     background-image: url("../images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.bottom{
+    margin: 100px 0px;
+}
+
+.down{
+    width: 100%;
+    display:flex;
+   
+   
+   
+}
+.full-stack{
+    width: 50%;
+    margin: 0px 7%;
+    padding: 10px 0px;
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin: 0 5%;
+}
+.junior{
+    
+    width: 50%;
+    margin: 0px 7%;
+    padding: 10px 0px;
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px gray;
+    
+    
+}
+.down{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.junior h1{
+    font-size: 40px;
+}
+.full-stack h1{
+    font-size: 40px;
+}
+#border{
+    border-image:linear-gradient(cyan,salmon);
+    border-image-slice: 1;
+    border-left: 4px solid;
+}
+#border2{
+    border-image:linear-gradient(blue,salmon);
+    border-image-slice: 1;
+    border-left: 4px solid;
+}
+footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer p{
+    font-style: italic;
+    color: rgb(38, 35, 35);
 }
